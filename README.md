@@ -1,24 +1,48 @@
-# vehicles_env
+# 🚗 Visualización y Análisis de Datos de Vehículos (vehicles_env)
 
-Esta aplicación web desarrollada con Streamlit permite visualizar y analizar datos de vehículos vendidos. La aplicación proporciona una interfaz interactiva para explorar información sobre el mercado automotriz a través de gráficos dinámicos.
+Esta es una **aplicación web interactiva** construida con **Streamlit** para explorar y analizar un conjunto de datos de autos vendidos en Estados Unidos. Permite obtener insights visuales y métricas clave del mercado automotriz.
 
-## ¿Qué hace la aplicación?
+---
 
-La aplicación muestra:
-- **Número total de carros vendidos** en el dataset
-- **Costo individual de cada vehículo vendido**
-- **Análisis visual** de los datos a través de gráficos interactivos
+## 📌 Descripción del Proyecto
 
-## Funcionalidades principales
+Este proyecto fue desarrollado como parte de mi formación en **Data Analytics** con TripleTen. El objetivo es aplicar técnicas de limpieza de datos, análisis exploratorio y visualización para entender tendencias y patrones en un dataset real.  
 
-- **Histogramas**: Visualiza la distribución de precios y otras características de los vehículos
-- **Gráficos de dispersión**: Explora las relaciones entre diferentes variables del dataset
-- **Controles interactivos**: Utiliza checkboxes para mostrar/ocultar diferentes tipos de gráficos
-- **Resumen de datos**: Muestra estadísticas básicas sobre los vehículos en el dataset
+---
 
-## Tecnologías utilizadas
+## 🔍 Funcionalidades
 
-- Python
-- Streamlit
-- Pandas
-- Plotly Express
+- 📊 **Histogramas** que muestran la distribución de precios y otras variables  
+- 📈 **Gráficos de dispersión** para relacionar características (por ejemplo, precio vs. millas)  
+- 📋 **Estadísticas descriptivas** básicas  
+- 🧠 Controles interactivos para mostrar/ocultar diferentes análisis  
+- 🖼️ Interfaz fácil de usar con Streamlit  
+
+---
+
+## 🛠 Tecnologías Utilizadas
+
+- **Python**  
+- **Streamlit**  
+- **Pandas**  
+- **Plotly Express**  
+- **Jupyter Notebook**  
+
+---
+
+## 📂 Contenidos del Repositorio
+
+| Archivo | Descripción |
+|---------|-------------|
+| `app.py` | Aplicación Streamlit para visualizar datos |
+| `EDA.ipynb` | Notebook con análisis exploratorio de datos |
+| `vehicles_us.csv` | Dataset de vehículos |
+| `requirements.txt` | Paquetes necesarios |
+
+---
+
+## 🚀 Cómo Usar
+
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/karlamedin551-byte/vehicles_env
