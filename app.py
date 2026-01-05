@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import pandas as pd
 import plotly.express as px
 import streamlit as st
@@ -19,3 +20,4 @@ if build_scatter:
     st.write('Creando un diagrama de dispersion para el conjunto de datos de anuncios de venta de coches')
     fig = px.scatter(car_data, x="odometer", y="price")
     st.plotly_chart(fig, use_container_width=True)
+
